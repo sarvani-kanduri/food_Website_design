@@ -15,13 +15,6 @@ for(var i=0; i<selectplanbutton.length;i++){
 
     });
 }
-for(var j=0; j<orderbutton.length;j++){
-    orderbutton[j].addEventListener('click' , function(){
-        backdrop.classList.add('openx');
-        detail.classList.add('openx');
-    });
-}
-
 backdrop.addEventListener('click' , function(){
     backdrop.classList.remove('open');
     backdrop.classList.remove('openx');
@@ -36,6 +29,14 @@ backdrop.addEventListener('click' , function(){
         mobileview.classList.remove('openh');
     }
 });
+for(var j=0; j<orderbutton.length;j++){
+    orderbutton[j].addEventListener('click' , function(){
+        backdrop.classList.add('openx');
+        detail.classList.add('openx');
+    });
+}
+
+
 if(negativebutton){
 negativebutton.addEventListener('click' , function(){
     backdrop.classList.remove('open');

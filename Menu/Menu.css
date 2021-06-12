@@ -194,7 +194,7 @@ main{
  
     width:24rem;
      left:5%; 
-     display: grid;
+     display: none;
      grid-template-rows:2rem 2rem 2.5rem;
      grid-template-columns:9rem 9rem;
      grid-gap:1rem 0.5rem;
